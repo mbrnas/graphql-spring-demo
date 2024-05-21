@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: graphqldemo
+  graphql:
+    graphiql:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: [ "prometheus" ]
